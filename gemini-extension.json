@@ -1,6 +1,6 @@
 {
   "name": "project-product-skills",
   "version": "1.0.0",
-  "description": "A 43-skill cross-agent kit for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
+  "description": "A cross-agent kit with 42 operating skills plus one router skill for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
   "contextFileName": "GEMINI.md"
 }

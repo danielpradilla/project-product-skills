@@ -6,7 +6,7 @@ It is built around the documents and decisions that keep work moving: meeting no
 
 The goal is simple: give an AI agent enough structure to produce useful operating artifacts without turning every request into a consulting deck. Most of these skills are meant to create something you can paste into a working doc, review with a team, or use in a project meeting the same day.
 
-The set is deliberately focused at 43 skills. The bias is toward project and product management work that repeats often and benefits from a clear format.
+The set is deliberately focused at 42 operating skills plus one router skill. The bias is toward project and product management work that repeats often and benefits from a clear format.
 
 Note: this repo is inspired by Mohit Aggarwal's open-source Claude skills library. I reshaped the collection around my own project/product workflow and packaged this version for Codex, Claude Code, and Gemini CLI.
 

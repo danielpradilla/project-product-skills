@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "project-product-skills",
   "version": "1.0.0",
-  "description": "A 43-skill kit for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
+  "description": "A kit with 42 operating skills plus one router skill for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
   "author": {
     "name": "Daniel Pradilla"
   },
