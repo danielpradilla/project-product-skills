@@ -2,13 +2,11 @@
 
 This is a practical skill kit for the weekly work of running projects and products across Codex, Claude Code, and Gemini CLI.
 
-It is built around the documents and decisions that keep work moving: meeting notes, status briefs, product requirements, discovery synthesis, roadmap narratives, prioritization, delivery planning, launch readiness, workshops, offsites, interview kits, onboarding plans, and PRINCE2 project packs.
+It is built around the typical documents and decisions you'll need to make to keep the ball rolling: meeting notes, status briefs, product requirements, interviews, roadmap narratives, prioritization, delivery planning, workshops, offsites, onboarding plans, and PRINCE2 project packs.
 
-The goal is simple: give an AI agent enough structure to produce useful operating artifacts without turning every request into a consulting deck. Most of these skills are meant to create something you can paste into a working doc, review with a team, or use in a project meeting the same day.
+Give an AI agent enough structure to produce useful operating artifacts without turning every request into a runaway task. Most of these skills are meant to create something you can paste into a working doc, review with a team, or use in a project meeting.
 
-The set is deliberately focused at 42 operating skills plus one router skill. The bias is toward project and product management work that repeats often and benefits from a clear format.
-
-Note: this repo is inspired by Mohit Aggarwal's open-source Claude skills library. I reshaped the collection around my own project/product workflow and packaged this version for Codex, Claude Code, and Gemini CLI.
+This repo is inspired by Mohit Aggarwal's open-source Claude skills library. I took a handful of ideas, reshaped the collection around what I consider a typical workflow, and packaged this version for Codex, Claude Code, and Gemini CLI.
 
 ## Install
 
@@ -196,12 +194,9 @@ For a browseable table with descriptions, see [SKILLS.md](SKILLS.md).
 
 ## How I Use It
 
-I do not think of these as prompts. I think of them as reusable operating artifacts.
-
 When a product review is messy, I use `roadmap-story-brief`.
 When a project is drifting, I use `delivery-status-brief`.
 When the team has too many opinions and not enough evidence, I use `assumption-risk-ledger`.
 When a launch feels vague, I use `launch-readiness-review`.
 When a governed project needs structure, I use `prince2-documentation-map` first and then the phase-specific PRINCE2 skill.
 
-That is the point of this repo: fewer skills, stronger defaults, and names that match the work.
