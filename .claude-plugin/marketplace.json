@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "project-product-skills",
+  "version": "1.0.0",
+  "description": "A cross-agent skill kit for running projects and products.",
+  "owner": {
+    "name": "Daniel Pradilla"
+  },
+  "plugins": [
+    {
+      "name": "project-product-skills",
+      "description": "Day-to-day operating skills for projects and products.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": ".",
+      "homepage": "https://github.com/dpradilla/project-product-skills"
+    }
+  ]
+}
+

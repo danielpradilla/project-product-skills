@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "project-product-skills",
+  "version": "1.0.0",
+  "description": "A skill kit for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
+  "author": {
+    "name": "Daniel Pradilla"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "project-management",
+    "delivery",
+    "roadmaps",
+    "discovery",
+    "launch",
+    "prince2"
+  ]
+}
+
