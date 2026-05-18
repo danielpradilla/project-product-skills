@@ -5,6 +5,8 @@ description: "Prepare the PRINCE2 Starting Up a Project material: mandate review
 
 # PRINCE2 Startup Brief
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when a project is still being shaped and needs enough structure to decide whether it is worth initiating.
 
 ## Inputs To Ask For

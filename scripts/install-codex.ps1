@@ -1,3 +1,7 @@
+param(
+    [switch]$UseSymlinks
+)
+
 $ErrorActionPreference = "Stop"
 
 $Root = Resolve-Path (Join-Path $PSScriptRoot "..")
@@ -10,9 +14,16 @@ Get-ChildItem (Join-Path $Root "skills") -Directory | ForEach-Object {
     if (Test-Path $Dest) {
         Remove-Item $Dest -Recurse -Force
     }
-    Copy-Item $_.FullName $Dest -Recurse
+    if ($UseSymlinks) {
+        New-Item -ItemType SymbolicLink -Path $Dest -Target $_.FullName | Out-Null
+    } else {
+        Copy-Item $_.FullName $Dest -Recurse
+    }
 }
 
-Write-Host "Installed Project + Product skills into $Target"
+if ($UseSymlinks) {
+    Write-Host "Installed Project + Product skills into $Target using symlinks."
+} else {
+    Write-Host "Installed Project + Product skills into $Target using copies."
+}
 Write-Host "Restart Codex so it can reload the skill list."
-

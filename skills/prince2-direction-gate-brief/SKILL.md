@@ -5,6 +5,8 @@ description: "Prepare PRINCE2 Directing a Project gate briefs for project board 
 
 # PRINCE2 Direction Gate Brief
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when the project board needs a clear decision at a PRINCE2 control point.
 
 ## Inputs To Ask For

@@ -1,7 +1,7 @@
 {
   "name": "project-product-skills",
   "version": "1.0.0",
-  "description": "A cross-agent skill kit for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
+  "description": "A 43-skill cross-agent kit for running projects and products: decisions, requirements, discovery, delivery, launch, PRINCE2 documentation, workshops, and team rituals.",
   "author": {
     "name": "Daniel Pradilla"
   },
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Project + Product Skills",
     "shortDescription": "Day-to-day operating skills for projects and products.",
-    "longDescription": "A focused skill kit for managing projects and products: meeting decisions, status updates, requirements, research, prioritization, delivery planning, launch readiness, PRINCE2 documentation, workshops, hiring, onboarding, and team offsites.",
+    "longDescription": "A focused 43-skill kit for managing projects and products: meeting decisions, status updates, requirements, research, prioritization, delivery planning, launch readiness, PRINCE2 documentation, workshops, hiring, onboarding, and team offsites.",
     "developerName": "Daniel Pradilla",
     "category": "Productivity",
     "capabilities": [
@@ -35,4 +35,3 @@
     "brandColor": "#2563EB"
   }
 }
-

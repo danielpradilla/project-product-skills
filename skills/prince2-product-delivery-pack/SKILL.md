@@ -5,6 +5,8 @@ description: "Prepare PRINCE2 Managing Product Delivery material: work package a
 
 # PRINCE2 Product Delivery Pack
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when a team manager or delivery team needs to accept, execute, and deliver a work package under PRINCE2 controls.
 
 ## Inputs To Ask For

@@ -5,6 +5,8 @@ description: "Run PRINCE2 Controlling a Stage: work package tracking, highlight 
 
 # PRINCE2 Stage Control Pack
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow during an active delivery stage when the project manager needs to control progress and keep the project within tolerance.
 
 ## Inputs To Ask For

@@ -6,7 +6,7 @@ It is built around the documents and decisions that keep work moving: meeting no
 
 The goal is simple: give an AI agent enough structure to produce useful operating artifacts without turning every request into a consulting deck. Most of these skills are meant to create something you can paste into a working doc, review with a team, or use in a project meeting the same day.
 
-The set is deliberately focused at 42 skills. The bias is toward project and product management work that repeats often and benefits from a clear format.
+The set is deliberately focused at 43 skills. The bias is toward project and product management work that repeats often and benefits from a clear format.
 
 Note: this repo is inspired by Mohit Aggarwal's open-source Claude skills library. I reshaped the collection around my own project/product workflow and packaged this version for Codex, Claude Code, and Gemini CLI.
 
@@ -57,12 +57,56 @@ Gemini CLI:
 
 The macOS/Linux installers symlink skills into the agent skill folder. The Windows installers copy skills by default because symlinks can require Developer Mode or elevated permissions.
 
+Installers also support explicit modes:
+
+```bash
+./scripts/install-codex.sh --link
+./scripts/install-codex.sh --copy
+./scripts/install-claude.sh --link
+./scripts/install-claude.sh --copy
+```
+
+On Windows, add `-UseSymlinks` if Developer Mode or elevated permissions allow symlinks:
+
+```powershell
+.\scripts\install-codex.ps1 -UseSymlinks
+.\scripts\install-claude.ps1 -UseSymlinks
+```
+
+## Maintenance
+
+Check the repo:
+
+```bash
+./scripts/validate.sh
+./scripts/doctor.sh
+```
+
+Update after pulling new changes:
+
+```bash
+./scripts/update.sh
+./scripts/update.sh codex --link
+./scripts/update.sh claude --copy
+```
+
+Uninstall local skill copies or links:
+
+```bash
+./scripts/uninstall-codex.sh
+./scripts/uninstall-claude.sh
+./scripts/uninstall-gemini.sh
+```
+
+Windows equivalents exist for each script as `.ps1` files.
+
 ## Requirements
 
 - Git, if you are cloning the repo.
 - Codex, Claude Code, or Gemini CLI depending on which agent you use.
 - Bash on macOS/Linux.
 - PowerShell on Windows.
+- Node.js if you want to run the Bash validation script.
 - Gemini CLI on your `PATH` if you use the Gemini installer.
 
 ## Test It
@@ -80,6 +124,12 @@ Use prince2-documentation-map to list the management products needed for a mediu
 ```
 
 ## Skill Set
+
+For a browseable table with descriptions, see [SKILLS.md](SKILLS.md).
+
+### Choose The Workflow
+
+- `project-product-router`
 
 ### Run The Work
 
@@ -155,4 +205,3 @@ When a launch feels vague, I use `launch-readiness-review`.
 When a governed project needs structure, I use `prince2-documentation-map` first and then the phase-specific PRINCE2 skill.
 
 That is the point of this repo: fewer skills, stronger defaults, and names that match the work.
-

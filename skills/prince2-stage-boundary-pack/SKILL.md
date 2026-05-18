@@ -5,6 +5,8 @@ description: "Prepare PRINCE2 Managing a Stage Boundary material: end stage repo
 
 # PRINCE2 Stage Boundary Pack
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when one stage is ending and the project board needs evidence to authorize the next stage.
 
 ## Inputs To Ask For

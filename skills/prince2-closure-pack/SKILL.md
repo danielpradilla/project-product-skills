@@ -5,6 +5,8 @@ description: "Prepare PRINCE2 Closing a Project material: product acceptance, en
 
 # PRINCE2 Closure Pack
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when the project is ready for planned or premature closure.
 
 ## Inputs To Ask For

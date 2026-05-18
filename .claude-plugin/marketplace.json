@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "project-product-skills",
   "version": "1.0.0",
-  "description": "A cross-agent skill kit for running projects and products.",
+  "description": "A 43-skill cross-agent kit for running projects and products.",
   "owner": {
     "name": "Daniel Pradilla"
   },
@@ -17,4 +17,3 @@
     }
   ]
 }
-

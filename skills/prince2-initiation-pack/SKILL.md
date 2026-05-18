@@ -5,6 +5,8 @@ description: "Build the PRINCE2 Initiating a Project pack: project initiation do
 
 # PRINCE2 Initiation Pack
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when the project has passed startup and needs a controlled baseline before delivery begins.
 
 ## Inputs To Ask For

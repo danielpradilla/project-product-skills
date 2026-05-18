@@ -5,6 +5,8 @@ description: "Map the PRINCE2 management products and project documentation need
 
 # PRINCE2 Documentation Map
 
+For detailed management product definitions, read `../../references/prince2-management-products.md` when the user needs a complete PRINCE2 document set or asks what each artifact is for.
+
 Use this workflow when the user asks what PRINCE2 documentation needs to exist, what to create in each phase, or how to tailor the document set.
 
 PRINCE2 calls these management products, not just documents. They can be documents, logs, registers, decks, spreadsheets, or records inside delivery tools. Tailor the set to the project size, risk, and governance need.
